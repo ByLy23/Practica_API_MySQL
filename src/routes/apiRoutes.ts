@@ -7,7 +7,7 @@ class ApiRoutes{
     }
 
     config():void{
-        //this.router.get('/peticiones'),apiController.getPeticion);
+        this.router.get('/peticiones',apiController.getFunciones);
     }
 }
 const apiRoutes= new ApiRoutes();
