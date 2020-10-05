@@ -4,6 +4,6 @@ export default{
         host:'localhost',
         user:'root',
         password:'password',
-        database:'base de datos xD'
+        database:'eje_de_mundo'
     }
 }

@@ -25,7 +25,7 @@ var server = /** @class */ (function () {
     };
     server.prototype.routes = function () {
         this.app.use('/', indexRoutes_1.default);
-        this.app.use('/api', apiRoutes_1.default);
+        this.app.use('/base', apiRoutes_1.default);
     };
     server.prototype.start = function () {
         var _this = this;

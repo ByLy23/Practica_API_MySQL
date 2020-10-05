@@ -22,7 +22,7 @@ config(): void{
 
 routes(): void{
     this.app.use('/',indexRoutes);
-    this.app.use('/api',apiRoutes);
+    this.app.use('/base',apiRoutes);
     }
     start(): void{
         this.app.listen(this.app.get('port'),()=>{
